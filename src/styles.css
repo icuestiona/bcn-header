@@ -142,12 +142,32 @@ footer a {
     height: 100%;
   }
 
+  .header {
+    margin-top: -70px;
+    padding: 4rem 0 6rem;
+  }
+
+  .header a {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+
   .content h1 {
-    font-size: 2.75rem;
-    line-height: 3.5rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-top: 140px;
+  }
+
+  button {
+    width: 35%;
+    text-align: center;
   }
 
   nav li {
+    margin-top: 20px;
     text-align: center;
+    font-weight: bold;
   }
 }
