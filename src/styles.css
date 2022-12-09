@@ -95,7 +95,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 .category {
   width: 80px;
@@ -110,10 +111,13 @@ nav {
 }
 .category img {
   width: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 30px;
   color: #10101a;
 }
+.category p {
+  margin-top: 10px;
+}
+
 .back-video {
   position: absolute;
   right: 0;
@@ -130,7 +134,7 @@ svg:hover {
 footer {
   color: white;
   opacity: 0.7;
-  margin-top: 120px;
+  margin-bottom: -200px;
 }
 footer a {
   color: white;
@@ -157,7 +161,7 @@ footer a {
   .content h1 {
     font-size: 2.5rem;
     line-height: 4rem;
-    margin-top: 140px;
+    margin-top: -130px;
   }
 
   button {
@@ -169,5 +173,46 @@ footer a {
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    margin-top: 100px;
+    font-size: 2.25rem;
+    line-height: 50px;
+  }
+  .content {
+    width: 80%;
+    max-width: 600px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .nav-links li {
+    margin: 0 10px;
+    font-size: 0.7rem;
+  }
+  .btn {
+    padding: 7px 20px;
+  }
+  .content form {
+    padding: 5px;
+  }
+
+  .content form input {
+    padding: 0 4px;
+    font-size: 1rem;
+  }
+
+  .content form button {
+    padding: 4px 20px;
+  }
+  .category-list {
+    margin-top: 20px;
+  }
+
+  .category {
+    margin: 0 10px;
   }
 }
